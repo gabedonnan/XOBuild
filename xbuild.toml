@@ -1,0 +1,16 @@
+[xbuild.info]
+name = "xbuild_example"
+version = "0.0.1"
+
+[xbuild.compiler]
+name = "gcc"
+version = "13.2"
+optimisation = "03"
+language = "^C++11"
+
+[xbuild.dependencies]
+boost = "^1.84.0"
+beast = "^1.2.0"
+
+[platform]
+name = "unix/linux"
